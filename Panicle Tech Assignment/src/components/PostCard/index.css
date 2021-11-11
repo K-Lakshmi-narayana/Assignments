@@ -1,0 +1,28 @@
+.post-card-container {
+  border: 2px solid lightblue;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: snow;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #383838;
+  font-family: 'Roboto';
+}
+
+.body {
+  font-size: 15px;
+  color: #5a5a5a;
+}
+
+.profile {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}

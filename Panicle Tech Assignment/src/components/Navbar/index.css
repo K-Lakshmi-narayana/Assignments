@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  position: fixed;
+  background-color: seashell;
+}
+
+.logo {
+  width: 130px;
+  margin-left: 20px;
+  border-radius: 300px;
+  padding: 10px;
+}
+.add-post-btn {
+  background-color: lightblue;
+  height: 40px;
+  border: none;
+  color: #000000;
+  font-weight: bold;
+  width: 180px;
+  margin-right: 40px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.form-input {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.input-label {
+  color: #636363;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 12px;
+  width: 60px;
+}
+.success-msg {
+  margin-left: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: lime;
+  width: 195px;
+  padding: 8px;
+}
